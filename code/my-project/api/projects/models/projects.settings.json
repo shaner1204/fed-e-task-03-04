@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Projects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "htmlUrl": {
+      "type": "string"
+    },
+    "updateTime": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stargazersCount": {
+      "type": "integer"
+    },
+    "watchersCount": {
+      "type": "integer"
+    },
+    "forksCount": {
+      "type": "integer"
+    },
+    "license": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
